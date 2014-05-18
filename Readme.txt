@@ -2,3 +2,5 @@ The file getClassifiers.py has the code to get test results from the classifiers
 unigram features. To run this, ensure that the data.csv file is in the same directory. 
 
 Topic models can be generated using the getLDA.py script. Once these are generated, they are manually added to csv and tested using getClassifiers.
+
+Stopword removal is specified in the vectoriser parameters in getClassifiers. To not include topic models, comment out line 19 in getClasifers. 
